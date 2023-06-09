@@ -1,0 +1,45 @@
+.container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    margin: 15px;
+    border: 5px solid red;
+    border-image: linear-gradient(to right, rgb(163, 4, 168), rgb(111, 0, 255)) 1;
+    background: linear-gradient(rgba(163, 3, 255, 0.473), rgba(33, 3, 143, 0.678));
+    z-index: 1;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    opacity: 0.9;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7);
+    
+}
+
+.boton {
+background-color: blue;
+color: white;
+background: linear-gradient(to right, rgb(163, 4, 168), rgb(111, 0, 255));
+border: none;
+cursor: pointer;
+
+}
+
+.boton:hover{
+    background:linear-gradient(to right, rgb(250, 6, 6), rgb(111, 0, 255)) ;
+    color: 0 0 10px 5px rgba(255, 255, 255, 0.7);;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7);
+}
+
+.container H2{
+    font-size: 15px;
+    color: white;
+    margin: 5px;
+}
+
+.image{
+    width: 300px;
+    border-radius: 0 0 10% 10%;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7);
+    
+}

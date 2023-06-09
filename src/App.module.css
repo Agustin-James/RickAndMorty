@@ -1,0 +1,30 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    text-align: center ;
+    background-image: url(./assets/fondo.jpg);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 50px;
+    flex-wrap: wrap; 
+    height: 60%;
+    width: 90%;
+    /*border: 10px solid black;*/
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+}
